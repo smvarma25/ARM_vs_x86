@@ -1,0 +1,21 @@
+# Claude Code agents — personal workflow, not open-sourced
+.claude/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Private docs — internal planning and strategy, not for public repo
+archives/
+ARM_QEMU_Lab_Notebook_Series_Plan_2.pdf
+
+# QEMU runtime artifacts (user-generated, large binaries)
+arm_qemu_labs/images/
+arm_qemu_labs/firmware/
+
+# Self-referencing symlink
+ARM_vs_x86

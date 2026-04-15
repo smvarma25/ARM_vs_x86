@@ -1,0 +1,15 @@
+# ARM QEMU Platform Architecture Lab Series — Dependencies
+# Target: macOS Apple Silicon (HVF) or Linux (KVM)
+# Python: 3.11+
+#
+# Install: pip install -r requirements.txt
+# Full environment setup: bash arm_qemu_labs/setup_qemu_labs.sh
+
+# Serial console interaction (QEMU guest)
+pexpect>=4.9.0,<5.0
+
+# Jupyter Lab (run notebooks)
+jupyterlab>=4.1.0,<5.0
+
+# Testing
+pytest>=7.4.0,<9.0
